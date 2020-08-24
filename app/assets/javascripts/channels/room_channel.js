@@ -1,10 +1,8 @@
 $(function() {
   $('[data-channel-subscribe="room"]').each(function(index, element) {
     var $element = $(element),
-
         room_id = $element.data('room-id')
         messageTemplate = $('[data-role="message-template"]');
-        console.log(room_id)
 
     $element.animate({ scrollTop: $element.prop("scrollHeight")}, 1000)        
 
